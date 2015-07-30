@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_margin="8dp"
+    android:background="#ffebffe8"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trip_title"
+            android:textSize="@dimen/title_textSize"
+            android:textColor="#ff27aa11"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/title_edit"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trip_content"
+            android:textSize="@dimen/title_textSize"
+            android:textColor="#ff27aa11"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/content_edit"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trip_photos"
+                android:layout_marginRight="30dp"
+                android:textSize="@dimen/title_textSize"
+                android:textColor="#ff27aa11"/>
+
+            <Button
+                android:id="@+id/btn_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="#fffdffff"
+                android:background="#ffffdefe"
+                android:textSize="16sp"
+                android:layout_marginRight="30dp"
+                android:text="@string/trip_photo" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:background="@mipmap/a1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fffdffff"
+        android:background="#ffffdefe"
+        android:textSize="16sp"
+        android:text="Go" />
+</LinearLayout>

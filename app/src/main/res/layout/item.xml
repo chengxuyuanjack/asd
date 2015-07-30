@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/trip_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2015年"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#6EC6E7"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/line_color"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#6EC6E7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_margin="4dp"
+            android:id="@+id/image_trip"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/title_trip"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="浪漫黄山游"
+                    android:textStyle="italic"
+                    android:textColor="#3F915A"
+                    />
+
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/trip_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015-5-1"
+                    android:textColor="#D38A4C"
+                    android:layout_marginRight="10dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/content_trip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2014年6月29日 - 注意,这里讲述的是如何使用Support Library中的Action...2)
+                为Activity设置一个主题; 这样,你的Activity就已经...系统会在ActionBar上使用用你的应用图标,这个图标是"
+                android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

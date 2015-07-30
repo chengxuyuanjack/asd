@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Page3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="trip_title">旅游口号</string>
+    <string name="title">输入本次旅游标题</string>
+    <string name="trip_content">旅游内容</string>
+    <string name="trip_photos">美好记忆</string>
+    <string name="trip_photo">拍照</string>
+    <string name="trip_category">请选择旅游类型</string>
+
+    <string-array name="action_bar_list">
+        <item>境内游</item>
+        <item>境外游</item>
+        <item>全部</item>
+    </string-array>
+    <string name="title_activity_page1">乐途记</string>
+    <string name="title_activity_page4">Page4</string>
+    <string name="title_activity_page2">Page2</string>
+    <string name="title_activity_page3">Page3</string>
+    <string name="title_activity_page5">Page5</string>
+    <string name="title_activity_page6">Page6</string>
+    <string name="title_activity_page7">Page7</string>
+    <string name="title_activity_page8">Page8Activity</string>
+    <string name="title_activity_page9">Page9Activity</string>
+</resources>
